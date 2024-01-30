@@ -55,4 +55,4 @@ const servidor =createServer((peticion,respuesta)=>{
     }
 });
 
-servidor.listen(3000);
+servidor.listen(process.env.PORT || 3000);
